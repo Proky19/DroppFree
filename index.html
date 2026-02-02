@@ -61,6 +61,38 @@
       font-size: 26px;
     }
   }
+.hero {
+  width: 100%;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+
+  .trust {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 24px 0;
+  font-size: 15px;
+  color: #374151;
+}
+
+@media (max-width: 600px) {
+  .trust {
+    grid-template-columns: 1fr;
+  }
+}
+
+  
+  
 </style>
 </head>
 <body>
@@ -73,12 +105,23 @@
     
     <span class="badge">Consultoria Sem Custo</span>
 
-    <h1>Análise estratégica gratuita para identificar oportunidades reais de crescimento</h1>
+    <h1>
+  Análise estratégica gratuita<br>
+  <span style="color:#2c5364;">para crescimento estruturado</span>
+</h1>
+
 
     <p>
   Se você sente que poderia vender mais, organizar melhor seus processos ou usar sua redes sociais
   de forma mais eficiente, esta consultoria é para você.
 </p>
+
+    <div class="trust">
+  <p>✔ Análise personalizada</p>
+  <p>✔ Foco em crescimento real</p>
+  <p>✔ Sem compromisso ou venda forçada</p>
+</div>
+
 
 <p>
   A análise é <strong>100% gratuita</strong>, sem compromisso, e focada na realidade da sua empresa.
