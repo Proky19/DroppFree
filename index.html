@@ -13,7 +13,7 @@
   }
 
   .container {
-    max-width: 880px;
+    max-width: 1100px;
     margin: auto;
     background: #ffffff;
     color: #1f2933;
@@ -122,16 +122,40 @@
     height: 160px;
   }
 }
-  .form-cta-wrapper {
-  width: 100%;
-  min-height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 40px 0;
+  .cta-section {
+  margin-top: 56px;
+  padding: 48px 32px;
+  background: #f9fafb;
+  border-radius: 16px;
   text-align: center;
 }
+
+.cta-section h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1f2933;
+}
+
+.cta-button.big {
+  font-size: 22px;
+  padding: 22px 40px;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.cta-note {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #4b5563;
+}
+
+.cta-privacy {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
 
 .cta-button {
   background: linear-gradient(135deg, #22c55e, #16a34a);
@@ -156,6 +180,54 @@
   margin-top: 12px;
   font-size: 14px;
   color: #9ca3af;
+}
+
+  .cta-section {
+  margin-top: 56px;
+  padding: 48px 32px;
+  background: #f9fafb;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1f2933;
+}
+
+.cta-button.big {
+  font-size: 22px;
+  padding: 22px 40px;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.cta-note {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #4b5563;
+}
+
+.cta-privacy {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+  @media (min-width: 1024px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  .hero {
+    height: 300px;
+  }
 }
 
   
@@ -191,21 +263,26 @@
   Preencha o formulário abaixo e entrarei em contato.
 </p>
       
-<div class="form-cta-wrapper">
+<div class="cta-section">
+  <h2>Receba sua análise estratégica gratuita</h2>
+
   <a
     href="https://form.jotform.com/260322539420045"
     target="_blank"
-    class="cta-button"
+    class="cta-button big"
   >
-    Solicitar análise
+    Solicitar análise agora
   </a>
+
   <p class="cta-note">
     ⏱ Leva menos de 5 minutos • Sem compromisso
   </p>
-    <p style="font-size:14px; color:#6b7280;">
-  As informações são confidenciais e usadas apenas para a análise estratégica.
-</p>
+
+  <p class="cta-privacy">
+    As informações são confidenciais e usadas apenas para a análise estratégica.
+  </p>
 </div>
+
 
 </div>
     
