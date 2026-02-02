@@ -91,6 +91,32 @@
   }
 }
 
+  .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 52px;
+  height: 52px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float img {
+  width: 26px;
+  height: 26px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+}
+
   
   
 </style>
@@ -136,6 +162,16 @@
   src="https://docs.google.com/forms/d/e/1FAIpQLSeB9zB7UqvQDrAlDqd2dYSczZddJXp0jxUoWka2Oq_iZ6dLjg/viewform?embedded=true">
 </iframe>
   </div>
+<a 
+  href="https://wa.me/5548999509315?text=Olá,%20vim%20pela%20análise%20estratégica%20gratuita."
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Falar no WhatsApp">
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+    alt="WhatsApp">
+</a>
 
+  
 </body>
 </html>
